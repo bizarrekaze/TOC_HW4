@@ -64,9 +64,7 @@ class Jsonreader
 							check_money(str_road,str_money);//價錢
 							if(check_month(str_road,str_month))
 							{
-								int temp = data.get(index.indexOf(str_road));
-								data.remove(index.indexOf(str_road));
-								data.add(index.indexOf(str_road),temp+1);
+								data.set(index.indexOf(str_road),data.get(index.indexOf(str_road))+1);
 							}
 							}catch(Exception e){;}
 					}
