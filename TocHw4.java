@@ -171,7 +171,7 @@ class Jsonreader
 		return max_money;
 	}
 }
-public class Hw4 {
+public class TocHw4 {
   public static void main(String[] args) throws IOException, JSONException, InterruptedException {
 	  
 		URL url = new URL(args[0]);
