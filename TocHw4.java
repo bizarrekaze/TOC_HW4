@@ -173,7 +173,11 @@ class Jsonreader
 }
 public class TocHw4 {
   public static void main(String[] args) throws IOException, JSONException, InterruptedException {
-	  
+	  	if(args.length != 4)
+		{
+			System.out.println("Error input !");
+			System.exit(1);
+		}
 		URL url = new URL(args[0]);
 		ArrayList<Integer> data = new ArrayList<Integer>();
 		int max=0;
