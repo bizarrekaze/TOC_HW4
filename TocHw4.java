@@ -1,3 +1,9 @@
+/******************************************************
+	學號:F74002109
+	姓名:蔡翔任
+	HW4
+	參數如同規定
+*******************************************************/
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -173,7 +179,7 @@ class Jsonreader
 }
 public class TocHw4 {
   public static void main(String[] args) throws IOException, JSONException, InterruptedException {
-	  	if(args.length != 4)
+	  	if(args.length != 1)
 		{
 			System.out.println("Error input !");
 			System.exit(1);
